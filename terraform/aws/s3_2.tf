@@ -6,7 +6,3 @@ resource "aws_s3_bucket" "name" {
   name = "daniel_demo"
   acl  = "public-read"
 }
-resource "aws_s3_bucket" "name2" {
-  name = "daniel_demo2"
-  acl  = "public-read"
-}
